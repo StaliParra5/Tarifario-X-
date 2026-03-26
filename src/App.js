@@ -372,7 +372,7 @@ export default function App() {
         </aside>
 
         {/* Contenido Principal */}
-        <main className="flex-1 p-6 md:p-12 lg:p-16 max-w-5xl overflow-y-auto bg-gradient-to-br from-[#0a0a0a] to-[#0f1218]">
+        <main className="flex-1 p-6 md:p-12 lg:p-16 max-w-7xl xl:max-w-none overflow-y-auto bg-gradient-to-br from-[#0a0a0a] to-[#0f1218]">
           
           {activeSection !== 14 ? (
             <div className="animate-fadeIn">
